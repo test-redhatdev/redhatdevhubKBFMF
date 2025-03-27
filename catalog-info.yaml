@@ -2,8 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage
-  description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+  description: >
+    Backstage is an open-source developer portal that puts the developer
+    experience first.
   links:
     - title: Website
       url: http://backstage.io
@@ -14,10 +15,13 @@ metadata:
     - title: Discord Chat
       url: https://discord.com/invite/EBHEGzX
   annotations:
-    github.com/project-slug: backstage/backstage
+    github.com/project-slug: test-redhatdev/my-backstage-repo  # Update this to your repo
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: library
-  owner: organization:test-redhatdev
+  owner: organization:test-redhatdev  # Update this to your organization
   lifecycle: production
+relations:
+  - type: ownedBy
+    targetRef: group:default/cncf  # You can change this to a valid group or user in your catalog
