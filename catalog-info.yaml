@@ -20,8 +20,8 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: library
-  owner: organization:test-redhatdev  # Update this to your organization
+  owner: team:test-redhatdev/test  # Update this to your organization
   lifecycle: production
-relations:
-  - type: ownedBy
-    targetRef: group:default/cncf  # You can change this to a valid group or user in your catalog
+#relations:
+ # - type: ownedBy
+  #  targetRef: group:default/cncf  # You can change this to a valid group or user in your catalog
