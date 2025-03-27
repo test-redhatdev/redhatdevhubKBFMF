@@ -7,7 +7,7 @@ metadata:
     experience first.
 spec:
   type: service
-  owner: nicopanjaitan67 # Update this to your organization
+  owner: group:test-redhatdev/test # Update this to your organization
   lifecycle: production
 #relations:
  # - type: ownedBy
