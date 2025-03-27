@@ -20,4 +20,4 @@ metadata:
 spec:
   type: library
   owner: organization:test-redhatdev
-  lifecycle: development
+  lifecycle: production
