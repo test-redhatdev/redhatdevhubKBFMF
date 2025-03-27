@@ -19,5 +19,5 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: library
-  owner: test-redhatdev
+  owner: user:default/nicopanjaitan67
   lifecycle: development
