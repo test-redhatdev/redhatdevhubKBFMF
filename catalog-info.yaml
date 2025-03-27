@@ -20,7 +20,7 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: organization
-  owner: test-redhatdev # Update this to your organization
+  owner:  group:test-redhatdev/test # Update this to your organization
   lifecycle: production
 #relations:
  # - type: ownedBy
