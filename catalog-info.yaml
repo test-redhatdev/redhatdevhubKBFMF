@@ -9,6 +9,6 @@ spec:
   type: service
   owner: group:test-redhatdev/test # Update this to your organization
   lifecycle: development
-#relations:
- # - type: ownedBy
-  #  targetRef: group:default/cncf  # You can change this to a valid group or user in your catalog
+relations:
+  - type: ownedBy
+    targetRef: group:default/cncf  # You can change this to a valid group or user in your catalog
