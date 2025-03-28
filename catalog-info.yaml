@@ -7,6 +7,6 @@ metadata:
     experience first.
 spec:
   type: library
-  owner: group:test-redhatdev/test # Update this to your organization
+  owner: user:toolchain/adminocp # Update this to your organization
   lifecycle: development
 
