@@ -1,12 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage
-  description: >
-    Backstage is an open-source developer portal that puts the developer
-    experience first.
+  name: "import-demo-app"
+  annotations:
+    github.com/project-slug: test-redhatdev/redhatdevhubKBFMF
 spec:
-  type: library
-  owner: user:toolchain/adminocp # Update this to your organization
+  type: service
   lifecycle: development
-
+  owner: "group:default/unset-owner"    
