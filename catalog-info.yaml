@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "import-demo-app"
   annotations:
-    github.com/project-slug: test-redhatdev/redhatdevhubKBFMF
+    github.com/project-slug: KB-FMF
 spec:
   type: service
   lifecycle: development
