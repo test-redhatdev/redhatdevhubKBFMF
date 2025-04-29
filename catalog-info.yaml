@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "import-demo-app"
+  name: "kreditplus"
   annotations:
-    github.com/project-slug: test-redhatdev/redhatdevhubKBFMF
+    github.com/project-slug: KB-FMF/toolchain
 spec:
   type: service
   lifecycle: development
-  owner: "group:default/unset-owner"
+  owner: "group:default/KB-FMF"
