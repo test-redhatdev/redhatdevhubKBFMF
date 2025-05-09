@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "kreditplus"
   annotations:
-    github.com/project-slug: KB-FMF/toolchain
+    github.com/project-slug: test-redhatdev/redhatdevhubKBFMF
 spec:
   type: service
   lifecycle: development
