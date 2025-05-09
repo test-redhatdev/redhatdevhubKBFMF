@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: KB-FMF
+  name: devops
   namespace: default
 spec:
   type: team
   profile:
-    displayName: KreditPlus FMF Team
+    displayName: Devops Team
   children: []  # ← ini wajib
