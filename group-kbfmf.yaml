@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: KB-FMF
+  namespace: default
+spec:
+  type: team
+  profile:
+    displayName: KreditPlus FMF Team
