@@ -7,3 +7,4 @@ spec:
   type: team
   profile:
     displayName: KreditPlus FMF Team
+  children: []  # ← ini wajib
