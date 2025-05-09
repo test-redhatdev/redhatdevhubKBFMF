@@ -7,5 +7,5 @@ metadata:
 spec:
   type: service
   lifecycle: development
-  owner: "group:default/KB-FMF"
+  owner: "group:default/devops"
   
